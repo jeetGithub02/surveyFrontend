@@ -12,7 +12,7 @@ export const AgeLawDetails = ({ name, date }) => {
 
 
     useEffect(()=>{
-        axios.get(`http://localhost:4080/get-participators`).then(response=>
+        axios.get(`http://192.168.116.124:4080/get-participators`).then(response=>
         {
           setParticipators(response.data)
           setAgePercent(
@@ -54,7 +54,7 @@ export const AgeLawDetails = ({ name, date }) => {
                 IsConsent: data.IsConsent === "true"
             };
 
-            axios.post(`http://localhost:4080/add-participator`, formattedData)
+            axios.post(`http://192.168.116.124:4080/add-participator`, formattedData)
                 .then(() => {
                     alert("Thank you for the Participation");
                     resetForm();

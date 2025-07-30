@@ -7,7 +7,7 @@ export const AgeLaw = () => {
 
 
   useEffect(()=>{
-      axios.get(`http://localhost:4080/get-participators`).then(response=>
+      axios.get(`http://192.168.116.124:4080/get-participators`).then(response=>
       {
         setParticipators(response.data)
         // console.log(male)
