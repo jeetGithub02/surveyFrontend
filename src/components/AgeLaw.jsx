@@ -21,7 +21,9 @@ export const AgeLaw = () => {
       <div className='grid grid-cols-1 md:grid-cols-2 gap-3'>
         <h1 className="font-medium text-xl ">Age on the first time</h1>
         <div className="text-[green] font-medium">Date : {date}</div>
-        <p className="col-span-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam deserunt qui ducimus sunt expedita, perferendis eveniet labore repellendus. Maiores, quasi!</p>
+        <p className="col-span-2">
+          This survey is for Indian youth and there age on the first se*. It will help to the Government for the upcoming rule and law.
+        </p>
 
         <div className="col-span-2">
             <div className="grid grid-cols-2 md:grid-cols-4 font-medium">
